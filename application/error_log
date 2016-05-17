@@ -1,0 +1,5 @@
+[10-Mar-2016 17:33:50 UTC] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/robin/public_html/offic/application/connect.php on line 2
+[10-Mar-2016 17:52:32 UTC] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/robin/public_html/offic/application/connect.php on line 2
+[10-Mar-2016 18:21:23 UTC] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/robin/public_html/offic/application/connect.php on line 2
+[10-Mar-2016 18:25:20 UTC] PHP Warning:  mysql_connect(): Access denied for user 'robin_offic'@'localhost' (using password: YES) in /home/robin/public_html/offic/application/connect.php on line 2
+[10-Mar-2016 18:26:49 UTC] PHP Warning:  mysql_connect(): Access denied for user 'robin_offic'@'localhost' (using password: YES) in /home/robin/public_html/offic/application/connect.php on line 2

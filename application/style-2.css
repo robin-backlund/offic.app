@@ -1,0 +1,130 @@
+body {
+  margin: 0px;
+}
+#loader {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  opacity: 1;
+  transition-duration: 0.3s;
+}
+#load {
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
+  width: 400px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+#main-container {
+  width: 800px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -100px;
+  display: none;
+}
+#title {
+  font-family: "Lato", sans-serif;
+  font-size: 25px;
+  color: gray;
+}
+#under {
+  font-family: "Lato", sans-serif;
+  font-size: 17px;
+  color: gray;
+  margin-top: -15px;
+}
+#step1 {
+  width: 100%;
+  height: 100%;
+  background-color: #abcdef;
+  display: none;
+  position: absolute;
+  transition-duration: 0.6s;
+}
+#step2 {
+  width: 100%;
+  height: 100%;
+  left: 100%;
+  background-color: #b3d2f0;
+  display: none;
+  position: absolute;
+  transition-duration: 0.6s;
+}
+#step3 {
+  width: 100%;
+  height: 100%;
+  top: 100%;
+  background-color: #bbd7f2;
+  display: none;
+  position: absolute;
+  transition-duration: 0.6s;
+}
+#step4 {
+  width: 100%;
+  height: 100%;
+  right: 100%;
+  background-color: lightgreen;
+  display: none;
+  position: absolute;
+  transition-duration: 0.6s;
+}
+.arrow {
+  width: 100px;
+  height: 250px;
+  background-color: rgba(246, 255, 253, 0.30);
+  color: rgba(246, 255, 253, 0.50);
+  position: absolute;
+  margin-top: -200px;
+}
+.arrow:hover {
+    background-color: rgba(246, 255, 253, 0.40);
+    color: rgba(246, 255, 253, 1);
+  cursor: pointer;
+}
+#left {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  float: left;
+}
+#right {
+  position: relative;
+  top: 0px;
+  transform: translateY(-50%);
+  float: right;
+}
+#bottom {
+  width: 250px;
+  height: 100px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  position:absolute;
+  bottom:0;
+}
+#steptitle {
+    width: 600px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 100px;
+    margin-top: 30px;
+    padding-top: -20px;
+    border: 5px solid white;
+    color: white;
+}
+#content {
+    width: 500px;
+    height: 563px;
+}
+p {
+    font-family: arial;
+    color: white;
+    font-size: 25px;
+}
